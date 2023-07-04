@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ggruiz7/jest-another-rpg#readme",
   "devDependencies": {
-    "jest": "^27.4.7"
+    "jest": "^27.5.1"
   }
 }
