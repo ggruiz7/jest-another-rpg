@@ -67,3 +67,12 @@ test("subtract from player's health", () => {
 
     expect(player.health).toBe(0);
 });
+
+test('adds potion to player inventory', () => {
+    const player = new Player('Dave');
+    const oldCount = player.inventory.length;
+  
+    player.addPotion(new Potion());
+  
+    expect(player.inventory.length).toBeGreaterThan(oldCount);
+  });
